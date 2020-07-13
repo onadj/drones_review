@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+      
+      
+    
+
+<ul class="list-group">
+{% for review in reviews %}
+<li class="list-group-item"><i class="fas fa-barcode"></i> {{review.drone_goggles_name}}</li>
+
+<li class="list-group-item"><i class="fas fa-user"></i> {{review.name}}</li>
+
+  <li class="list-group-item"><i class="fas fa-comments"></i> {{review.review}}</li>
+  
+  <li class="list-group-item"><i class="fab fa-chrome"></i> {{review.url}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
