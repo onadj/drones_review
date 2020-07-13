@@ -29,6 +29,34 @@
   </head>
   
   <body>
+  <header>
+<!--NavBar-->
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light font-weight-bold">
+		<a class="navbar-brand" href="index.html"> Dream Vacation </a>
+		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<div class="navbartext ml-auto">
+				<ul class="navbar-nav ml-xl-5">
+
+					<li class="nav-item">
+						<a class="nav-link" href="{{url_for('add_review')}}">Add Drone Review</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{url_for('get_reviews')}}">Drones Review</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="beforeyougo.html">Before You Go </a>
+					</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--endNavbar-->
+  </header>
 
 <div class="container">
      {% block content %}
