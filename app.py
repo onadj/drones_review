@@ -24,9 +24,9 @@ def add_review():
 def insert_review():
     reviews = mongo.db.reviews
     reviews.insert_one(request.form.to_dict())
-    return redirect(url_for('get_reviews')
+    return redirect(url_for('get_reviews'))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
