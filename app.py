@@ -31,12 +31,7 @@ def insert_review():
     return redirect(url_for('get_reviews'))
 
 
-@app.route('/edit_review/<review_id>')
-def edit_review(review_id):
-    the_review =  mongo.db.reviews.find_one({"_id": ObjectId(review_id)})
-    all_reviews =  mongo.db.reviews.find()
-    return render_template('edit_review.html', task=the_review,
-                           reviews=all_reviews   
+
 
 if __name__ == '__main__':
     app.run(
