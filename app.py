@@ -1,14 +1,16 @@
 import os
 from flask import Flask, render_template, redirect, request, url_for
-if os.path.exists("env.py"):
-    import env
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 
+if os.path.exists("env.py"):
+    import env
+
 app = Flask(__name__)
 
-app.config["MONGO_DBNAME"] = 'drones2020'
-app.config["MONGO_URI"] = 'mongodb+srv://onadj:Signacare2020@myfirstcluster-hbcie.mongodb.net/drones2020?retryWrites=true&w=majority'
+app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+app.secret_key=os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
@@ -30,6 +32,6 @@ def insert_review():
 
 if __name__ == '__main__':
     app.run(
-        host(os.environ.get("IP", "0.0.0.0"),
+        host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
         debug=True)
