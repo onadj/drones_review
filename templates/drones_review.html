@@ -7,15 +7,49 @@
 <ul class="list-group">
 {% for review in reviews %}
 
+
+
+<div class="row">
+<div class="col-md-6">
 <li class="list-group-item"><i class="fas fa-barcode"></i> {{review.category_name}}</li>
+</div>
+</div>
 
+<div class="row">
+<div class="col-md-6">
 <li class="list-group-item"><i class="fas fa-barcode"></i> {{review.drone_goggles_name}}</li>
+</div>
+</div>
 
+
+<div class="row">
+<div class="col-md-6">
 <li class="list-group-item"><i class="fas fa-user"></i> {{review.name}}</li>
+</div>
+</div>
 
-  <li class="list-group-item"><i class="fas fa-comments"></i> {{review.review}}</li>
+
+<div class="row">
+<div class="col-md-6">
+ <li class="list-group-item"><i class="fas fa-comments"></i> {{review.review}}</li>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+ <li class="list-group-item"><i class="fab fa-chrome"></i> {{review.url}}</li>
+</div>
+</div>
+
+
+ <div class="row">
+<div class="col-md-6">
+ <button type="submit" class="btn btn-primary">Done</button>
+  <button type="submit" class="btn btn-primary">Edit</button>
+</div>
+</div>
+  <br>
   
-  <li class="list-group-item"><i class="fab fa-chrome"></i> {{review.url}}</li>
     {% endfor %}
 </ul>
 
