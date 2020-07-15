@@ -1,3 +1,5 @@
+
+
 import os
 from flask import (Flask, flash, render_template, redirect, request, session, url_for)
 from flask_pymongo import PyMongo
@@ -23,6 +25,7 @@ def get_reviews():
 def add_review():
     return render_template('add_drones_review.html' ,
                            categories=mongo.db.categories.find())
+                           
 
 @app.route('/insert_review', methods=['POST'])
 def insert_review():
@@ -30,7 +33,12 @@ def insert_review():
     reviews.insert_one(request.form.to_dict())
     return redirect(url_for('get_reviews'))
 
-
+@app.route('/edit_review/<review_id>')
+def edit_review(review_id):
+    the_review =  mongo.db.reviews.find_one({"_id": ObjectId(review_id)})
+    all_categories =  mongo.db.categories.find()
+    return render_template('edit_review.html', review=the_review,
+                           categories=all_categories)
 
 
 if __name__ == '__main__':
