@@ -1,126 +1,17 @@
 {% extends 'base.html' %} {% block content%}
 
- 
 
-<div class="container mt-5">
-  <div class="form-group">
-    <select id="product-select" class="form-control custom-select">
-        <option value="0" disabled selected>Select Product</option>
-        
-        <option value="drone1">DJI Mavic Air 2</option>
-        <option value="drone2">DJI Mavic 2 Pro</option>
-        <option value="drone3">DJI Mavic Mini</option>
-        <option value="drone4">DJI Mavic 2 Zoom</option>
-        <option value="drone5">DJI Phantom 4</option>
-        <option value="drone6">Parrot Anafi</option>
-        <option value="drone7">Parrot Bebop 2</option>
-        <option value="drone8">DJI Mavic Pro</option>
-        <option value="drone9">DJI Mavic Inspire 2</option>
-        
-      </select>
-  </div>
-  <div class="form-group">
-    <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
-  </div>
-
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Drones</th>
-        <th>Rating</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="DJI Mavic Air 2">
-        <td>DJI Mavic Air 2</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-      <tr class="DJI Mavic 2 Pro">
-        <td>DJI Mavic 2 Pro</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-      <tr class="DJI Mavic Mini">
-        <td>DJI Mavic Mini</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-      <tr class="DJI Mavic 2 Zoom">
-        <td>DJI Mavic 2 Zoom</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-      <tr class="DJI Phantom 4">
-        <td>DJI Phantom 4</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-
-
-       <tr class="Parrot Anafi">
-        <td>Parrot Anafi</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-
-   <tr class="Parrot Bebop 2">
-        <td>Parrot Bebop 2</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-
-<tr class="DJI Mavic Pro">
-        <td>DJI Mavic Pro</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-
-<tr class="DJI Mavic Inspire 2">
-        <td>DJI Mavic Inspire 2</td>
-        <td>
-          <div class="stars-outer">
-            <div class="stars-inner"></div>
-          </div>
-          <span class="number-rating"></span>
-        </td>
-      </tr>
-
-    </tbody>
-  </table>
-</div>
+       <header class="homeheader">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Drone review page.</h2>
+                  
+                </div>
+            </div>
+        </header>
 
 
 {% endblock %}
+
+
