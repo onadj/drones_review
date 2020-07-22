@@ -1,7 +1,6 @@
-const text = document.querySelector('.animatedtext');
+const text = document.querySelector('.textanimation');
 const strText = text.textContent;
 const splitText = strText.split("");
-
 
 text.textContent = "";
 
@@ -11,7 +10,7 @@ for (let i=0; i < splitText.length; i++){
 }
 
 let char = 0;
-let timer = setInterval(onTick,50);
+let timer = setInterval(onTick,100);
 
 function onTick(){
     const span = text.querySelectorAll('span')[char];
