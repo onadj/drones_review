@@ -6,7 +6,22 @@ html{
 }
 
 a:link {
-        text-decoration: none;
+  color: grey;
+   text-decoration: none;
+}
+a:visited {
+  color: grey;
+   text-decoration: none;
+}
+
+a:hover {
+  color: red;
+   text-decoration: none;
+}
+
+a:active {
+  color: grey;
+   text-decoration: none;
 }
 
 .homeheader {
@@ -37,6 +52,10 @@ a:link {
   text-decoration: none;
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid red;
-    margin: 1em 0; padding: 0; }
+hr { display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
+ }
