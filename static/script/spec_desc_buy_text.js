@@ -1,6 +1,6 @@
-$('.readMore').click(function(e) {
+$('.readReview').click(function(e) {
   e.preventDefault();
   $(this).text(function(i, t) {
-    return t == 'Read Less' ? 'Read More' : 'Read Less';
+    return t == 'Close' ? 'Read Review' : 'Close';
   }).prev('.more-cont').slideToggle()
 });
