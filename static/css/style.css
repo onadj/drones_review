@@ -6,25 +6,105 @@ html{
      
 }
 
+
+
+.containerbox .box1{
+width:80px;
+height:100px;
+background:#999594;
+
+
+}
+
+.containerbox .box2{
+width:80px;
+height:100px;
+background:#B3B7BA;
+
+
+}
+
+.containerbox .box3{
+width:80px;
+height:100px;
+background:#7A8373;
+
+
+}
+
+
+.containerbox .box6{
+width:80px;
+height:100px;
+background:#7A8373;
+
+
+}
+
+
+.containerbox .box5{
+    width:80px;
+height:100px;
+background:#7A8373;
+
+
+}
+
+
+.containerbox .box4{
+width:80px;
+height:100px;
+background:#7A8373;
+
+
+}
+
+
+.containerbox .box7{
+width:80px;
+height:100px;
+background:#999594;
+
+
+}
+
+
+.containerbox .box8{
+width:80px;
+height:100px;
+background:#B3B7BA;
+
+
+}
+
+
+.containerbox .box9{
+width:80px;
+height:100px;
+background:#7A8373;
+
+
+}
+
 p {color:grey;
 }
 
 a:link {
-  color: grey;
+  color:black;
    text-decoration: none;
 }
 a:visited {
-  color: grey;
+  color:black;
    text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: black;
    text-decoration: none;
 }
 
 a:active {
-  color: grey;
+  color:black;
    text-decoration: none;
 }
 

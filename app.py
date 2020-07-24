@@ -18,7 +18,6 @@ mongo = PyMongo(app)
 
 @app.route('/')
 
-@app.route('/vote')
 
 @app.route('/index')
 def index():
