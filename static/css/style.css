@@ -9,24 +9,24 @@ html{
 
 
 .containerbox .box1{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#999594;
 
 
 }
 
 .containerbox .box2{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#B3B7BA;
 
 
 }
 
 .containerbox .box3{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#7A8373;
 
 
@@ -34,8 +34,8 @@ background:#7A8373;
 
 
 .containerbox .box6{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#7A8373;
 
 
@@ -43,8 +43,8 @@ background:#7A8373;
 
 
 .containerbox .box5{
-    width:80px;
-height:100px;
+    width:100%;
+height:80px;
 background:#7A8373;
 
 
@@ -52,8 +52,8 @@ background:#7A8373;
 
 
 .containerbox .box4{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#7A8373;
 
 
@@ -61,8 +61,8 @@ background:#7A8373;
 
 
 .containerbox .box7{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#999594;
 
 
@@ -70,8 +70,8 @@ background:#999594;
 
 
 .containerbox .box8{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#B3B7BA;
 
 
@@ -79,8 +79,8 @@ background:#B3B7BA;
 
 
 .containerbox .box9{
-width:80px;
-height:100px;
+width:100%;
+height:80px;
 background:#7A8373;
 
 
