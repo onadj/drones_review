@@ -1,11 +1,15 @@
-body{ 
-}
+
 
 html{
      scroll-behavior: smooth;
      
 }
+/*  Top Drones in 2020 */
 
+
+/*  End Top Drones in 2020 */
+
+/* Specification Review Where To Buy Container */
 .droneimage{
   width:100%;
   
@@ -35,6 +39,7 @@ html{
   width:100%;
   
   }
+/*  End Specification Review Where To Buy Container */
 
 p {color:grey;
 }
