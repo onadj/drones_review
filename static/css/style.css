@@ -6,85 +6,35 @@ html{
      
 }
 
-
-.containerbox .box1{
-width:100%;
-height:120px;
-background:white;
-
-
-
-}
-
-.containerbox .box2{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-.containerbox .box3{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box6{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box5{
- width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box4{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box7{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box8{
-width:100%;
-height:120px;
-background:white;
-
-
-}
-
-
-.containerbox .box9{
-width:100%;
-height:120px;
-background:white;
-
-
-}
+.droneimage{
+  width:100%;
+  
+   }
+  
+  .specification{
+  width:100%;
+  
+  }
+  
+  
+  .review{
+  width:100%;
+  
+  }
+  
+  .wheretobuy{
+  width:100%;
+  
+  }
+  
+  .gotothedrones{
+  width:100%;
+  
+  }
+  .addreview{
+  width:100%;
+  
+  }
 
 p {color:grey;
 }
