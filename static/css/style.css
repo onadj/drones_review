@@ -7,7 +7,7 @@ html{
 /*Welcome*/
 
 .containershowcase{
-    width:50%;
+    width:100%;
     margin:auto;
     padding: 0 30px;
 }
@@ -43,6 +43,7 @@ html{
     100%{left:0px}
 }
 
+/*
 .btn{
     display:inline-block;
     color:lightblue;
@@ -57,6 +58,7 @@ html{
     animation-fill-mode: forwards;
     transition-property: transform;
     transition-duration:2s;
+    opacity:0;
 }
 .btn:hover{
 transform:rotateY(360deg);
@@ -66,6 +68,7 @@ transform:rotateY(360deg);
     0% {opacity:0 }
     100%{opacity:1}
 }
+*/
 /*  End Welcome */
 
 
@@ -77,34 +80,98 @@ transform:rotateY(360deg);
 
 /* Specification Review Where To Buy Container */
 .droneimage{
-  width:100%;
-  
+    width:100%;
+    position:relative;
+    animation:droneimage;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes droneimage{
+    0% {left:-1000px}
+    100%{left:0px}
    }
   
   .specification{
   width:100%;
-  
+    position:relative;
+    animation:specification;
+    animation-duration:3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
   }
+  @keyframes specification{
+    0% {left:1000px}
+    100%{left:0px}
+   }
   
   
   .review{
   width:100%;
-  
+    position:relative;
+    animation:review;
+    animation-duration:3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
   }
-  
+
+  @keyframes review{
+    0% {left:1000px}
+    100%{left:0px}
+   }
+
   .wheretobuy{
   width:100%;
-  
+    position:relative;
+    animation:wheretobuy;
+    animation-duration:3s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
   }
   
+  @keyframes wheretobuy{
+    0% {left:1000px}
+    100%{left:0}
+   }
+/* End Specification Review Where To Buy Container */
+
+/*JumpToTheTop*/
   .gotothedrones{
-  width:100%;
-  
+    width:100%;
+    display:inline-block;
+    opacity:0;
+    animation-name:gotothedrones;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
   }
+
+@keyframes gotothedrones{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
   .addreview{
-  width:100%;
-  
+    width:100%;
+    display:inline-block;
+    opacity:0;
+    animation-name:addreview;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
   }
+
+  @keyframes addreview{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+/*End JumpToTheTop*>
+
 /*  End Specification Review Where To Buy Container */
 
 p {color:grey;
