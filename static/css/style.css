@@ -78,53 +78,178 @@ transform:rotateY(360deg);
 
 
 .menubox1{
-    border: red .5px solid;
+    border:lightgray .5px solid;
     height:120px;
+    animation-name:menubox1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
+
+
+@keyframes menubox1{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
 
 .menubox2{
-    border: red .5px solid;
+    border:lightgray .5px solid;
     height:120px;
+    animation-delay: .5s;
+    animation-name:menubox2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
+
+@keyframes menubox2{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
+
 
 .menubox3{
-    border: red .5px solid;
-  height:120px;
+    border:lightgray .5px solid;
+    height:120px;
+    animation-delay: 1s;
+    animation-name:menubox3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
+
+@keyframes menubox3{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
 
 .menubox4{
-    border: red .5px solid;
+    border:lightgray .5px solid;
     height:120px;
+    animation-delay: 1.5s;
+    animation-name:menubox4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
 
-.menubox5{
-   border: red .5px solid;
-    height:120px;
+@keyframes menubox4{
+    0% {opacity:0 }
+    100%{opacity:1}
 }
+
+
+.menubox5{
+    border:lightgray .5px solid;
+    height:120px;
+    animation-delay: 2s;
+    animation-name:menubox5;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+}
+
+@keyframes menubox5{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
 
 
 .menubox6{
-    border: red .5px solid;
+     border:lightgray .5px solid;
     height:120px;
+    animation-delay: 2.5s;
+    animation-name:menubox6;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
     
 }
 
+@keyframes menubox6{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
+
 
 .menubox7{
-    border: red .5px solid;
+    border:lightgray .5px solid;
     height:130px;
+    animation-delay: 3s;
+    animation-name:menubox7;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
+@keyframes menubox7{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
 
 
 .menubox8{
-    border: red .5px solid;
+     border:lightgray .5px solid;
     height:130px;
+    animation-delay: 3.5s;
+    animation-name:menubox8;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
 }
 
-.menubox9{
-    border: red .5px solid;
-   height:130px;
+@keyframes menubox8{
+    0% {opacity:0 }
+    100%{opacity:1}
 }
+
+
+.menubox9{
+    border:lightgray .5px solid;
+    height:130px;
+    animation-delay: 4s;
+    animation-name:menubox9;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+}
+
+@keyframes menubox9{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+
+
+
 /*  End Top Drones in 2020 */
 
 /* Specification Review Where To Buy Container */
@@ -142,7 +267,7 @@ transform:rotateY(360deg);
    }
   
   .specification{
-  width:100%;
+    width:100%;
     position:relative;
     animation:specification;
     animation-duration:3s;
@@ -153,7 +278,6 @@ transform:rotateY(360deg);
     0% {left:1000px}
     100%{left:0px}
    }
-  
   
   .review{
   width:100%;
