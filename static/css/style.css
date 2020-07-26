@@ -4,7 +4,10 @@ html{
      scroll-behavior: smooth;
      
 }
-
+body{
+    overflow-x: hidden;
+    
+}
 
 /*Welcome*/
 
@@ -45,32 +48,6 @@ html{
     100%{left:0px}
 }
 
-/*
-.btn{
-    display:inline-block;
-    color:lightblue;
-    text-decoration:none;
-    padding: 1rem 2rem;
-    border: grey 1px solid;
-    margin-top: 40px;
-    opacity:0;
-    animation-name:btn;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    transition-property: transform;
-    transition-duration:2s;
-    opacity:0;
-}
-.btn:hover{
-transform:rotateY(360deg);
-
-}
-@keyframes btn{
-    0% {opacity:0 }
-    100%{opacity:1}
-}
-*/
 /*  End Welcome */
 
 
@@ -86,6 +63,8 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
+    
 }
 
 
@@ -94,7 +73,10 @@ transform:rotateY(360deg);
     100%{opacity:1}
 }
 
-
+.menubox1:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 .menubox2{
     border:lightgray .5px solid;
@@ -106,15 +88,18 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
+}
+
+.menubox2:hover {
+  transform: scale(1.1); 
+  color: gray;
 }
 
 @keyframes menubox2{
     0% {opacity:0 }
     100%{opacity:1}
 }
-
-
-
 
 .menubox3{
     border:lightgray .5px solid;
@@ -126,13 +111,18 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
+}
+
+.menubox3:hover {
+  transform: scale(1.1); 
+  color: gray;
 }
 
 @keyframes menubox3{
     0% {opacity:0 }
     100%{opacity:1}
 }
-
 
 .menubox4{
     border:lightgray .5px solid;
@@ -144,6 +134,7 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
 }
 
 @keyframes menubox4{
@@ -151,6 +142,10 @@ transform:rotateY(360deg);
     100%{opacity:1}
 }
 
+.menubox4:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 .menubox5{
     border:lightgray .5px solid;
@@ -162,6 +157,7 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
 }
 
 @keyframes menubox5{
@@ -169,6 +165,10 @@ transform:rotateY(360deg);
     100%{opacity:1}
 }
 
+.menubox5:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 
 
@@ -182,6 +182,7 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
     
 }
 
@@ -190,6 +191,10 @@ transform:rotateY(360deg);
     100%{opacity:1}
 }
 
+.menubox6:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 
 
@@ -203,14 +208,17 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
 }
 @keyframes menubox7{
     0% {opacity:0 }
     100%{opacity:1}
 }
 
-
-
+.menubox7:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 .menubox8{
      border:lightgray .5px solid;
@@ -222,11 +230,17 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
 }
 
 @keyframes menubox8{
     0% {opacity:0 }
     100%{opacity:1}
+}
+
+.menubox8:hover {
+  transform: scale(1.1); 
+  color: gray;
 }
 
 
@@ -240,6 +254,7 @@ transform:rotateY(360deg);
     transition-property: transform;
     transition-duration:2s;
     opacity:0;
+    transition: transform .2s;
 }
 
 @keyframes menubox9{
@@ -247,6 +262,10 @@ transform:rotateY(360deg);
     100%{opacity:1}
 }
 
+.menubox9:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
 
 
 
