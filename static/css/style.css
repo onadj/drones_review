@@ -257,7 +257,7 @@ transform:rotateY(360deg);
     width:100%;
     position:relative;
     animation:droneimage;
-    animation-duration:3s;
+    animation-duration:1s;
     animation-fill-mode: forwards;
 }
 
@@ -265,13 +265,12 @@ transform:rotateY(360deg);
     0% {left:-1000px}
     100%{left:0px}
    }
-  
-  .specification{
+
+.specification{
     width:100%;
     position:relative;
     animation:specification;
-    animation-duration:3s;
-    animation-delay: 3s;
+    animation-duration:2s;
     animation-fill-mode: forwards;
   }
   @keyframes specification{
@@ -284,7 +283,6 @@ transform:rotateY(360deg);
     position:relative;
     animation:review;
     animation-duration:3s;
-    animation-delay: 4s;
     animation-fill-mode: forwards;
   }
 
@@ -293,12 +291,12 @@ transform:rotateY(360deg);
     100%{left:0px}
    }
 
-  .wheretobuy{
-  width:100%;
+   .wheretobuy{
+    width:100%;
     position:relative;
     animation:wheretobuy;
-    animation-duration:3s;
-    animation-delay: 5s;
+    animation-duration:4s;
+    
     animation-fill-mode: forwards;
   }
   
