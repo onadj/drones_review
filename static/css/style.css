@@ -6,10 +6,26 @@ html{
 }
 body{
     overflow-x: hidden;
-    
+    background-color: black;
+   
+
+}
+
+/*Sizes of containers*/
+.container-video{
+   max-height: 95vh;
+}
+
+.container-welcome {
+    height: 95vh;
+}
+
+.container-topdrones{
+height: 95vh;
 }
 
 /*Welcome*/
+
 
 .containershowcase{
     width:100%;
