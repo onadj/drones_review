@@ -1,37 +1,34 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<form action="{{url_for('insert_review')}}" method="POST">
-
- 
-
- <div class="form-group">
-    <label for="exampleFormControlSelect1">Select Drone For Review</label>
-    <select class="form-control" id="category" name="category_name">
-    {% for cat in categories %}
-   <option value="{{cat.category_name}}">{{cat.category_name}}</option>
-   {% endfor %}
-    </select>
-  </div>
-
- 
-
-  <div class="form-group">
-    <label for="formGroupExampleInput2">Your Name</label>
-    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
-  </div>
-
-  <div class="form-group">
-    <label for="formGroupExampleInput3">Your Review</label>
+<div class="container text-center">
+       <div class="row">
+              <div class="col-12">
+                     <form action="{{url_for('insert_review')}}" method="POST">
+                     <div class="form-group">
+                     <label for="exampleFormControlSelect1">Select Drone For Review</label>
+                 <select class="form-control" id="category"   name="category_name">
+                     {% for cat in categories %}
+                  <option value="{{cat.category_name}}">{{cat.category_name}}</option>
+                   {% endfor %}
+               </select>
+            </div>
+                   <div class="form-group">
+               <label for="formGroupExampleInput2">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+               </div>
+             <div class="form-group">
+             <label for="formGroupExampleInput3">Your Review</label>
     
+              <textarea class="form-control" id="review" name="review" placeholder="Enter Your Review Here" rows="3"></textarea>
 
-     <textarea class="form-control" id="review" name="review" placeholder="Enter Your Review Here" rows="3"></textarea>
-     
-  </div>
-
-  
-
-  <button type="submit" class="btn btn-primary" >Add Your Review</button>
+                   </div>
+  <button type="submit" class="btn btn-outline-danger" >Add Your Review</button>
 </form>
-
+  <br>
+    <br>
+      <br>
+</div>
+</div>
+</div>
 {% endblock %}
