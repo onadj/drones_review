@@ -1,22 +1,72 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 html{
      scroll-behavior: smooth;
-     
+     overflow-x:hidden;
 }
+
 body{
-    overflow-x: hidden;
+    margin:0;
+    padding:0;
     background-color: black;
-   
-
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden; 
 }
 
-/*Sizes of containers*/
-.container-video{
-   height:100vh;
-   width:100vw;
+/*navbar*/
+.navbar{
+    background-color: black;
 }
-.bannerhome{
+.custom-toggler.navbar-toggler{
+  border-color: red;
+
+}
+/*end navbar*/
+
+
+/*hoover links*/
+
+a:link {
+  color:red;
+   text-decoration: none;
+}
+a:visited {
+  color:red;
+   text-decoration: none;
+}
+
+a:hover {
+  color: white;
+   text-decoration: none;
+}
+
+a:active {
+  color:white;
+   text-decoration: none;
+}
+/*end hoover links*/
+
+/*h colors*/
+
+h4, h5{
+    color:red;
+}
+h1, h2 {
+    color:white;
+}
+
+h3, h6{
+    color:black;
+}
+/*end h colors*/
+
+
+.container-welcome{
+    margin:0;
+}
+
+/*welcome text*/
+.welcometext{
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -28,68 +78,34 @@ body{
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    font-size: 60px;
-
 }
 
 
-.container-welcome {
-    height: 95vh;
+.span{
+    opacity:0;
+    transition: all 1s ease;
+    
 }
 
-.container-topdrones{
-height: 95vh;
+.fade{
+    opacity: 1;
+   
 }
-
-/*Welcome*/
-
-
-.containershowcase{
-    width:100%;
-    margin:auto;
-    padding: 0 30px;
-}
-
-#showcase{
-    height:80px;
-}
+hr{ display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
+ }
 
 
-#showcase h1{
-    font-size:50px;
-    line-height:1.3;
-    position:relative;
-    animation:heading;
-    animation-duration:3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes heading{
-    0% {left:1000px}
-    100%{left:0px}
-}
-
-#content1{
-    position:relative;
-    animation-name:content;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes content{
-    0% {left:-1000px}
-    100%{left:0px}
-}
-
-/*  End Welcome */
+/*end welcome text*/
 
 
-/*  Top Drones in 2020 */
 
-
+/*Top 9 drones in 2020*/
 .menubox1{
-    border:lightgray .5px solid;
-    height:120px;
     animation-name:menubox1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -112,8 +128,6 @@ height: 95vh;
 }
 
 .menubox2{
-    border:lightgray .5px solid;
-    height:120px;
     animation-delay: .5s;
     animation-name:menubox2;
     animation-duration: 1s;
@@ -135,8 +149,6 @@ height: 95vh;
 }
 
 .menubox3{
-    border:lightgray .5px solid;
-    height:120px;
     animation-delay: 1s;
     animation-name:menubox3;
     animation-duration: 1s;
@@ -158,8 +170,6 @@ height: 95vh;
 }
 
 .menubox4{
-    border:lightgray .5px solid;
-    height:120px;
     animation-delay: 1.5s;
     animation-name:menubox4;
     animation-duration: 1s;
@@ -181,8 +191,6 @@ height: 95vh;
 }
 
 .menubox5{
-    border:lightgray .5px solid;
-    height:120px;
     animation-delay: 2s;
     animation-name:menubox5;
     animation-duration: .5s;
@@ -206,8 +214,6 @@ height: 95vh;
 
 
 .menubox6{
-     border:lightgray .5px solid;
-    height:120px;
     animation-delay: 2.5s;
     animation-name:menubox6;
     animation-duration: 1s;
@@ -232,8 +238,6 @@ height: 95vh;
 
 
 .menubox7{
-    border:lightgray .5px solid;
-    height:130px;
     animation-delay: 3s;
     animation-name:menubox7;
     animation-duration: 1s;
@@ -254,8 +258,6 @@ height: 95vh;
 }
 
 .menubox8{
-     border:lightgray .5px solid;
-    height:130px;
     animation-delay: 3.5s;
     animation-name:menubox8;
     animation-duration: 1s;
@@ -278,8 +280,6 @@ height: 95vh;
 
 
 .menubox9{
-    border:lightgray .5px solid;
-    height:130px;
     animation-delay: 4s;
     animation-name:menubox9;
     animation-duration: 1s;
@@ -300,145 +300,68 @@ height: 95vh;
   color: gray;
 }
 
+/* End Top 9 drones in 2020*/
 
+/* container with image, specification, video, where to buy, about and go to the drones*/
 
-/*  End Top Drones in 2020 */
-
-/* Specification Review Where To Buy Container */
-.droneimage{
-    width:100%;
-    position:relative;
-    animation:droneimage;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
+.box1{
+     border: 1px solid grey;
+     
 }
 
-@keyframes droneimage{
-    0% {left:-1000px}
-    100%{left:0px}
-   }
-
-.specification{
-    width:100%;
-    position:relative;
-    animation:specification;
-    animation-duration:2s;
-    animation-fill-mode: forwards;
-  }
-  @keyframes specification{
-    0% {left:1000px}
-    100%{left:0px}
-   }
-  
-  .review{
-  width:100%;
-    position:relative;
-    animation:review;
-    animation-duration:3s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes review{
-    0% {left:1000px}
-    100%{left:0px}
-   }
-
-   .wheretobuy{
-    width:100%;
-    position:relative;
-    animation:wheretobuy;
-    animation-duration:4s;
-    
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes wheretobuy{
-    0% {left:1000px}
-    100%{left:0}
-   }
-/* End Specification Review Where To Buy Container */
-
-/*JumpToTheTop*/
-  .gotothedrones{
-    width:100%;
-    display:inline-block;
-    opacity:0;
-    animation-name:gotothedrones;
-    animation-duration: 2s;
-    animation-delay: 8s;
-    animation-fill-mode: forwards;
-    transition-property: transform;
-    transition-duration:2s;
-  }
-
-@keyframes gotothedrones{
-    0% {opacity:0 }
-    100%{opacity:1}
+.box2{
+     border: 1px solid grey;
 }
 
-  .addreview{
-    width:100%;
-    display:inline-block;
-    opacity:0;
-    animation-name:addreview;
-    animation-duration: 3s;
-    animation-delay: 9s;
-    animation-fill-mode: forwards;
-    transition-property: transform;
-    transition-duration:2s;
-  }
-
-  @keyframes addreview{
-    0% {opacity:0 }
-    100%{opacity:1}
+.box3{
+     border: 1px solid grey;
 }
 
-/*End JumpToTheTop*>
-
-/*  End Specification Review Where To Buy Container */
-
-p {color:grey;
+.box4{
+     border: 1px solid grey;
 }
 
-a:link {
-  color:black;
-   text-decoration: none;
-}
-a:visited {
-  color:black;
-   text-decoration: none;
+.box5{
+     border: 1px solid grey;
 }
 
-a:hover {
-  color: black;
-   text-decoration: none;
+.box6{
+     border: 1px solid grey;
 }
 
-a:active {
-  color:black;
-   text-decoration: none;
-}
-
-
-.span{
-    opacity:0;
-    transition: all 1s ease;
-    
-}
-
-.fade{
-    opacity: 1;
+.box7{
+   border: 1px solid white;
    
 }
 
-.button a {
-  text-decoration: none;
+.box8{
+    border: 1px solid white;
+    
 }
+/*end container with image, specification, video, where to buy, about and go to the drones*/
 
-hr { display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid red;
-    margin: 1em 0;
-    padding: 0;
- }
+/*container read reviews and add your review*/
+.container-read_and_addreview{
+    background-color:whitesmoke;
+}
+/*end container read reviews and add your review*/
+
+
+/*animations for images*/
+
+.droneimageopacity{
+    animation-name:droneimageopacity;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:3s;
+    opacity:0;
+    transition: transform 3s;
+  }
+  @keyframes droneimageopacity{
+    0% {opacity:0;}
+    100%{opacity:1;}
+   }
+
+
+/*end animations*/

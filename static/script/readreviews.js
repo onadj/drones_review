@@ -3,4 +3,4 @@ $('.readReview').click(function(e) {
   $(this).text(function(i, t) {
     return t == 'Close' ? 'Read Review' : 'Close';
   }).prev('.more-cont').slideToggle()
-});
+});;

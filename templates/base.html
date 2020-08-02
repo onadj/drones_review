@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,9 +18,9 @@
     type="text/css"/>
 
     <!-- Core theme CSS-->
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
+     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
    <title>Drone Review</title>
-  </head>
+</head>
   
   <body>
   
@@ -29,48 +29,79 @@
    
 
 
-<nav class="navbar navbar-expand-sm navbar-light bg-light font-weight-bold">
-		<a class="navbar-brand" href="{{url_for('index')}}"> Only Drones </a>
-		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<!--NavBar-->
+<nav class="navbar navbar-expand-sm">
+		<a class="navbar-brand" href="index.html">  </a>
+		<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<div class="navbartext ml-auto">
 				<ul class="navbar-nav ml-xl-5">
-
-				
-					 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url_for('get_reviews')}}">Drone Reviews</a></li>
-					 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{url_for('add_review')}}">Add Drone Review</a></li>
+                     <li class="nav-item">
+						<a class="nav-link" href="{{url_for('index')}}">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{url_for('get_reviews')}}">Drones Reviews</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{url_for('add_review')}}">Add Drone Review</a>
+					</li>
 			</ul>
 		</div>
 	</div>
 </nav>
 <!--endNavbar-->
 
+
 <div class="container-fluid">
      {% block content %}
      
      {% endblock %}
 </div>
-<!-- Bootstrap core JS-->
+
+<!--Footer-->
+ <footer>
+ <div class="container-fluid text-center">
+ <div class="row">
+  <div class="col-12">
+		
+			<ul class="list-unstyled list-inline">
+               <li class="list-inline-item mx-3"><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+		   	</li>
+            <li class="list-inline-item mx-3"><a target="_blank" href="https://twitter.com/explore"><i class="fab fa-twitter-square fa-3x"></i></a>
+			</li>
+            <li class="list-inline-item mx-3"><a target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-3x"></i></a>
+			</li>
+            <li class="list-inline-item  mx-3"><a target="_blank" href="https://www.pinterest.ie/"><i class="fab fa-pinterest-square fa-3x"></i></a>
+			</li>
+            <li class="list-inline-item mx-3"><a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-3x"></i></a>
+		   </li>
+           <li class="list-inline-item mx-3"><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square fa-3x"></i></a>
+           </li>             
+		  </ul>
+      <p class="text-white text-md-center">© 2020 Copyright:
+	    	<strong> oliver.nad@gmail.com</strong></p>
+      </div>
+     </div>
+  </div>
+</footer>
+  <!-- End Footer -->
+   <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core theme JS-->
-   <script src="{{ url_for('static', filename='script/splitanimationtext.js') }}"></script>
-
- <script src="{{ url_for('static', filename='script/start_animation_after_scroling.js') }}"></script>
-
-    <script src="{{ url_for('static', filename='script/animation_page.js') }}"></script>
-    <script src="{{ url_for('static', filename='script/spec_desc_buy_text.js') }}"></script>
+    <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-   
-   
-   
  
+ <!--My Scripts-->
+    
+ <script src="{{ url_for('static', filename='script/splitletter.js') }}"></script>
+
+<script src="{{ url_for('static', filename='script/animations.js') }}"></script>
+
+<script src="{{ url_for('static', filename='script/readreviews.js') }}"></script>
+
+
   </body>
 </html>
