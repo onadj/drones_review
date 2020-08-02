@@ -106,8 +106,7 @@ hr{ display: block;
 
 /*Top 9 drones in 2020*/
 .menubox1{
-    height:100px;
-    width:100px;
+
     animation-name:menubox1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -130,8 +129,7 @@ hr{ display: block;
 }
 
 .menubox2{
-    height:100px;
-    width:100px;
+    
     animation-delay: .5s;
     animation-name:menubox2;
     animation-duration: 1s;
@@ -153,8 +151,7 @@ hr{ display: block;
 }
 
 .menubox3{
-    height:100px;
-    width:100px;
+   
     animation-delay: 1s;
     animation-name:menubox3;
     animation-duration: 1s;
@@ -176,8 +173,7 @@ hr{ display: block;
 }
 
 .menubox4{
-    height:100px;
-    width:100px;
+    
     animation-delay: 1.5s;
     animation-name:menubox4;
     animation-duration: 1s;
@@ -199,8 +195,7 @@ hr{ display: block;
 }
 
 .menubox5{
-    height:100px;
-    width:100px;
+   
     animation-delay: 2s;
     animation-name:menubox5;
     animation-duration: .5s;
@@ -224,8 +219,7 @@ hr{ display: block;
 
 
 .menubox6{
-    height:100px;
-    width:100px;
+   
     animation-delay: 2.5s;
     animation-name:menubox6;
     animation-duration: 1s;
@@ -250,8 +244,7 @@ hr{ display: block;
 
 
 .menubox7{
-    height:100px;
-    width:100px;
+   
     animation-delay: 3s;
     animation-name:menubox7;
     animation-duration: 1s;
@@ -272,8 +265,7 @@ hr{ display: block;
 }
 
 .menubox8{
-    height:100px;
-    width:100px;
+   
     animation-delay: 3.5s;
     animation-name:menubox8;
     animation-duration: 1s;
@@ -296,8 +288,7 @@ hr{ display: block;
 
 
 .menubox9{
-    height:100px;
-    width:100px;
+   
     animation-delay: 4s;
     animation-name:menubox9;
     animation-duration: 1s;
