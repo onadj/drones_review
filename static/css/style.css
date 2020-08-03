@@ -116,7 +116,6 @@ hr{ display: block;
     
 }
 
-
 @keyframes menubox1{
     0% {opacity:0 }
     100%{opacity:1}
@@ -194,7 +193,6 @@ hr{ display: block;
 }
 
 .menubox5{
-   
     animation-delay: 2s;
     animation-name:menubox5;
     animation-duration: .5s;
@@ -215,10 +213,7 @@ hr{ display: block;
   color: gray;
 }
 
-
-
 .menubox6{
-   
     animation-delay: 2.5s;
     animation-name:menubox6;
     animation-duration: 1s;
@@ -240,10 +235,7 @@ hr{ display: block;
   color: gray;
 }
 
-
-
 .menubox7{
-   
     animation-delay: 3s;
     animation-name:menubox7;
     animation-duration: 1s;
@@ -264,7 +256,6 @@ hr{ display: block;
 }
 
 .menubox8{
-   
     animation-delay: 3.5s;
     animation-name:menubox8;
     animation-duration: 1s;
@@ -284,7 +275,6 @@ hr{ display: block;
   transform: scale(1.1); 
   color: gray;
 }
-
 
 .menubox9{
    
@@ -370,6 +360,5 @@ hr{ display: block;
     0% {opacity:0;}
     100%{opacity:1;}
    }
-
 
 /*end animations*/
