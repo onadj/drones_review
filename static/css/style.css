@@ -85,10 +85,10 @@ div.scrollmenu a {
 
 /*h colors*/
 
-h4, h5{
+h1, h4, h5{
     color:red;
 }
-h1, h2 {
+h2 {
     color:white;
 }
 
