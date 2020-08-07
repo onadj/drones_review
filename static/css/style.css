@@ -199,7 +199,6 @@ hr{ display: block;
 
 .appearance1{
      visibility: visible;
-     animation-delay: 1.5s;
     animation-name: appearance1;
     -webkit-animation-name: appearance1;
     animation-duration: 2.5s;
