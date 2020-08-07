@@ -218,45 +218,10 @@ hr{ display: block;
 
 /* container with image, specification, video, where to buy, about and go to the drones*/
 
-.box1{
-     border: 1px solid black;
-     
-}
-
-.box2{
-     border: 1px solid grey;
-}
-
-.box3{
-     border: 1px solid grey;
-}
-
-.box4{
-     border: 1px solid grey;
-}
-
-.box5{
-     border: 1px solid grey;
-}
-
-.box6{
-     border: 1px solid grey;
-}
-
-.box7{
-   border: 1px solid white;
-   
-}
-
-.box8{
-    border: 1px solid white;
-    
-}
 /*end container with image, specification, video, where to buy, about and go to the drones*/
 
-/*container read reviews and add your review*/
-.container-read_and_addreview{
-    background-color:whitesmoke;
+/*read reviews and add your review*/
+#more {display: none;}
 }
 /*end container read reviews and add your review*/
 

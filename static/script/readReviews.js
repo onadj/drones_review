@@ -1,6 +1,15 @@
-$('.readReview').click(function(e) {
-  e.preventDefault();
-  $(this).text(function(i, t) {
-    return t == 'Close' ? 'Read' : 'Close';
-  }).prev('.more-cont').slideToggle()
-});;
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Close";
+    moreText.style.display = "inline";
+  }
+}
