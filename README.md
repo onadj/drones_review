@@ -57,21 +57,6 @@ Minimalistic design with black background, red and white color.
 
 ---
 
-
-# UX
-
-- I want to find out web page about best drones in 2020
-
-- I want to read descriptions and reviews about drones
-
-- I want to leave my own review for drone, If I want I can delete it  or edit it
-
-- I want to see where can I buy a drone, without google it
-
-- I want to find on social networks videos, images etc about drones.
-
----
-
 # Wireframe
 
 - Desktop
