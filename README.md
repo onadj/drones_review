@@ -67,7 +67,7 @@ Minimalistic design with black background, red and white color.
 
 2.Drones Reviews
 
-![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/DronesReviewDesktop.png)
+![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/DronesReviewsDesktop.png)
 
 3.Add Drone Review
 
@@ -79,7 +79,7 @@ Minimalistic design with black background, red and white color.
 
 ![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/HomeMobile.png)
 
-2.Read Reviews
+2.Drones Reviews
 
 ![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/DroneReviewMobile.png)
 
