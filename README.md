@@ -7,7 +7,7 @@
 Drones are no longer just a hobby but are increasingly a job of the future. With a drone, you can do almost anything, make movies, do delivery, shoot commercials, access inaccessible terrain, monitor fire-prone areas, save lives, and much, much more.
 On this page you can find the top 9 drones in 2020. You can read the specifications, watch the videos, buy, and most importantly read the reviews, add a review to help people choose the best one either for business or for a hobby.
 
-![i](https://github.com/onadj/drones_review/blob/master/rmimages/dronereviewreadmd1.jpg)
+![i](https://github.com/onadj/drones_review/blob/master/static/rmimages/dronereviewreadmd1.jpg)
 
 ---
 
