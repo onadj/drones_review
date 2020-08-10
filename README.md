@@ -63,9 +63,15 @@ Minimalistic design with black background, red and white color.
 
 1.Home Page
 
-2.Read Reviews
+![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/HomeDesktop.png)
+
+2.Drones Reviews
+
+![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/DronesReviewDesktop.png)
 
 3.Add Drone Review
+
+![i](https://github.com/onadj/drones_review/blob/master/static/wireframe/AddDroneReviewDesktop.png)
 
 - Mobile Phone
 
