@@ -1,6 +1,6 @@
 # Code Institute Milestone Project 3 - Data Centric Development
 
-# Drone Review Site
+# Drone Review
 
 ---
 
@@ -124,8 +124,6 @@ Make a webshop from an existing site
 - Flask Framework
 
 - MongoDB
-
-- Jinja2
 
 - Adobe Photoshop
 
